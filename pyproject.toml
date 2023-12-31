@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "snake-game"
+version = "0.1.0"
+description = "This is a simple snake game made with python and pygame."
+authors = ["Christian Rotondo <chris.rotondo6@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
